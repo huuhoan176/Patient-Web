@@ -1,0 +1,51 @@
+{
+  "name": "ether_reactjs",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.0.1",
+    "array-move": "^2.1.0",
+    "bootstrap": "^4.3.1",
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^2.0.2",
+    "fs-extra": "^8.0.1",
+    "ipfs": "^0.36.2",
+    "ipfs-api": "^26.1.2",
+    "ipfs-bitswap": "^0.27.1",
+    "ipfs-image-web-upload": "^1.0.5",
+    "jquery": "^3.4.1",
+    "lite-server": "^2.3.0",
+    "material-ui": "^0.20.2",
+    "multicodec": "^1.0.0",
+    "nodemon": "^1.17.3",
+    "react": "^16.8.6",
+    "react-awesome-modal": "^2.0.5",
+    "react-bootstrap": "^1.0.0-beta.8",
+    "react-dom": "^16.8.6",
+    "react-modal": "^3.8.1",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "react-sortable-hoc": "^1.9.1",
+    "react-sticky-header": "^0.2.0",
+    "react-user-profile": "^1.0.3",
+    "truffle-contract": "^3.0.6",
+    "web3": "^0.19.1",
+    "web3-js": "^1.0.5-beta.26"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

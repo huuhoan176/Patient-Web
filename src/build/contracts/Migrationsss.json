@@ -1,0 +1,266 @@
+{
+  "contractName": "Migrationsss",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor",
+      "signature": "constructor"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a7230582037409c0f28cbbdd09c071698000c2551f5c317d597e2d4eb08417cb7c86514070029",
+  "deployedBytecode": "0x6080604052600080fd00a165627a7a7230582037409c0f28cbbdd09c071698000c2551f5c317d597e2d4eb08417cb7c86514070029",
+  "sourceMap": "26:78:3:-;;;54:48;8:9:-1;5:2;;;30:1;27;20:12;5:2;54:48:3;26:78;;;;;;",
+  "deployedSourceMap": "26:78:3:-;;;;;",
+  "source": "pragma solidity ^0.4.25;\n\ncontract Migrationsss {\n\n\n  constructor() public {\n     string ownerss ;\n  }\n}\n\n \n \n",
+  "sourcePath": "/home/cutyremon/blockChain/reactjs_ethereum/clone_server/tokenzendr-contract/contracts/Migrationsss.sol",
+  "ast": {
+    "absolutePath": "/home/cutyremon/blockChain/reactjs_ethereum/clone_server/tokenzendr-contract/contracts/Migrationsss.sol",
+    "exportedSymbols": {
+      "Migrationsss": [
+        178
+      ]
+    },
+    "id": 179,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 170,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".25"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:3"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 178,
+        "linearizedBaseContracts": [
+          178
+        ],
+        "name": "Migrationsss",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 176,
+              "nodeType": "Block",
+              "src": "75:27:3",
+              "statements": [
+                {
+                  "assignments": [],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 174,
+                      "name": "ownerss",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 177,
+                      "src": "82:14:3",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_storage_ptr",
+                        "typeString": "string"
+                      },
+                      "typeName": {
+                        "id": 173,
+                        "name": "string",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "82:6:3",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_string_storage_ptr",
+                          "typeString": "string"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 175,
+                  "initialValue": null,
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "82:14:3"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 177,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 171,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "65:2:3"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 172,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "75:0:3"
+            },
+            "scope": 178,
+            "src": "54:48:3",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 179,
+        "src": "26:78:3"
+      }
+    ],
+    "src": "0:110:3"
+  },
+  "legacyAST": {
+    "absolutePath": "/home/cutyremon/blockChain/reactjs_ethereum/clone_server/tokenzendr-contract/contracts/Migrationsss.sol",
+    "exportedSymbols": {
+      "Migrationsss": [
+        178
+      ]
+    },
+    "id": 179,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 170,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".25"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:3"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 178,
+        "linearizedBaseContracts": [
+          178
+        ],
+        "name": "Migrationsss",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 176,
+              "nodeType": "Block",
+              "src": "75:27:3",
+              "statements": [
+                {
+                  "assignments": [],
+                  "declarations": [
+                    {
+                      "constant": false,
+                      "id": 174,
+                      "name": "ownerss",
+                      "nodeType": "VariableDeclaration",
+                      "scope": 177,
+                      "src": "82:14:3",
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_string_storage_ptr",
+                        "typeString": "string"
+                      },
+                      "typeName": {
+                        "id": 173,
+                        "name": "string",
+                        "nodeType": "ElementaryTypeName",
+                        "src": "82:6:3",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_string_storage_ptr",
+                          "typeString": "string"
+                        }
+                      },
+                      "value": null,
+                      "visibility": "internal"
+                    }
+                  ],
+                  "id": 175,
+                  "initialValue": null,
+                  "nodeType": "VariableDeclarationStatement",
+                  "src": "82:14:3"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 177,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 171,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "65:2:3"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 172,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "75:0:3"
+            },
+            "scope": 178,
+            "src": "54:48:3",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 179,
+        "src": "26:78:3"
+      }
+    ],
+    "src": "0:110:3"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.25+commit.59dbf8f1.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0x96dD0ec02018eb720757233f4f43AFDcA10e6456",
+      "transactionHash": "0xa37af44bbcad272475ad5bcc6a65eb5d0b9ceba0532d2c8116f63b1061da29b4"
+    },
+    "9999": {
+      "events": {},
+      "links": {},
+      "address": "0x05286904c5990E20326014EB7Ea9b9605b0244F8",
+      "transactionHash": "0x55b1bb4eb43df7bfc1df89641d686870eb3a5b18795d4db00e19b39c639cac13"
+    }
+  },
+  "schemaVersion": "3.0.1",
+  "updatedAt": "2019-04-23T13:51:23.743Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}

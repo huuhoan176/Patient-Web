@@ -1,0 +1,120 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.input2 {
+  border: none;
+  background: hsl(0, 100%, 100%);
+  padding: 16px 16px 16px 23px;
+  z-index: 1;
+  width: -moz-available;
+  margin-bottom: -35px;
+  margin-left: -39px;
+  text-align: left;
+} 
+.contentlayout {
+  height: -webkit-fill-available;
+} 
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.alignCenter {
+  text-align: center;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 2px;
+}
+
+.style-img{
+  height: 290px;
+}
+.stylehospital{
+  overflow: auto;
+    position: relative;
+    background: hsl(0, 100%, 100%);
+    max-width: 360px;
+    width: 100%;
+    max-height: 550px;
+    height:500px;
+}
+.patientmargintop{
+  margin-top: 43px;
+}
+.titleBackgr{
+  margin: 1em 0 0.5em 0;
+  font-weight: normal;
+  position: relative;
+  text-shadow: 0 -1px rgba(0,0,0,0.6);
+  font-size: 28px;
+  line-height: 40px;
+  background: #355681;
+  background: rgba(53,86,129, 0.8);
+  border: 1px solid #fff;
+  padding: 5px 15px;
+  color: white;
+  border-radius: 0 10px 0 10px;
+  box-shadow: inset 0 0 5px rgba(53,86,129, 0.5);
+  font-family: 'Muli', sans-serif;
+}
+
+.headerMarginTop{
+  margin-top: -40px;
+}
+.headerMarginTopMedical{
+  margin-top:43px;
+}
+.bodertitle{
+  border: solid;
+    background-color:aliceblue;
+}
+.bodercontent{
+  border: double;
+  background-color: white;
+    height: 510px;
+}
+.boderbuttom{
+  border-bottom: double;
+}
+.margin_top{
+  margin-top: 44px;
+}
+ a:focus{
+  color:red !important;
+}
+.styleimg {
+  height: 163px;
+}
+.styleBody{
+  margin-bottom: -21px;
+}
